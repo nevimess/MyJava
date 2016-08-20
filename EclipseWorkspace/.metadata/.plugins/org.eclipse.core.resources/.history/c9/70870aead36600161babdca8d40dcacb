@@ -15,7 +15,7 @@ public class Cw6 implements Runnable {
 		
 		Random rand = new Random(150);
 		long i = System.currentTimeMillis()/1000;
-		//System.out.println(i);
+		
 		try{
 		TimeUnit.SECONDS.sleep(rand.nextInt(10));
 		return;
@@ -23,7 +23,7 @@ public class Cw6 implements Runnable {
 		catch(InterruptedException e){
 			
 			long j = System.currentTimeMillis()/1000;
-			System.out.println("Odmierzony czas to " + (i-j));
+			System.out.println("Odmierzony czas to " + j);
 			System.out.println("Koniec dzialania watku # "+ id);
 			
 			

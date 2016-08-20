@@ -1,0 +1,16 @@
+package com.Michal.Libera;
+
+import java.util.concurrent.TimeUnit;
+
+public class Cw6 implements Runnable {
+
+	@Override
+	public void run(){
+		
+		long i = System.currentTimeMillis();
+		
+	}
+	
+	
+	
+}

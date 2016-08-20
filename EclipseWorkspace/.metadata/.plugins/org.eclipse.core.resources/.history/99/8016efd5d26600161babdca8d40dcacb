@@ -1,0 +1,19 @@
+package com.Michal.Libera;
+
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
+
+public class Cw6 implements Runnable {
+
+	@Override
+	public void run(){
+		
+		Random rand = new Random(150);
+		long i = System.currentTimeMillis();
+		TimeUnit.SECONDS.sleep(rand.nextInt(10));
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+package com.Michal.Libera;
+
+public class Cw6 implements Runnable {
+
+	@Override
+	public void run(){
+		
+		
+		
+	}
+	
+	
+	
+}

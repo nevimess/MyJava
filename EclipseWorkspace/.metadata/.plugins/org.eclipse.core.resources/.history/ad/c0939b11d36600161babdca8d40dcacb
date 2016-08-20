@@ -1,8 +1,6 @@
 package com.Michal.Libera;
 
 import java.util.Random;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class Cw6 implements Runnable {
@@ -14,16 +12,14 @@ public class Cw6 implements Runnable {
 	public void run(){
 		
 		Random rand = new Random(150);
-		long i = System.currentTimeMillis()/1000;
-		//System.out.println(i);
+		long i = System.currentTimeMillis();
+		
 		try{
 		TimeUnit.SECONDS.sleep(rand.nextInt(10));
-		return;
 		}
 		catch(InterruptedException e){
 			
-			long j = System.currentTimeMillis()/1000;
-			System.out.println("Odmierzony czas to " + (i-j));
+			long j = System.currentTimeMillis();
 			System.out.println("Koniec dzialania watku # "+ id);
 			
 			
@@ -31,12 +27,6 @@ public class Cw6 implements Runnable {
 		
 	}
 	
-	public static void main(String...args){
-		
-		ExecutorService exec = Executors.newCachedThreadPool();
-		
-		exec.execute(new Cw6());
-		exec.shutdown();
-	}
+	
 	
 }

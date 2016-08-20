@@ -15,7 +15,7 @@ public class Cw6 implements Runnable {
 		
 		Random rand = new Random(150);
 		long i = System.currentTimeMillis()/1000;
-		//System.out.println(i);
+		System.out.println(i);
 		try{
 		TimeUnit.SECONDS.sleep(rand.nextInt(10));
 		return;
