@@ -1,0 +1,30 @@
+package com.Michal.Libera;
+
+public class Fib {
+
+	public static int fib(int n){
+		
+		if(n == 0 || n < 0){
+			
+			System.out.println("Arg needs to be greater than null");
+			return 0;
+		}
+		else if(n == 1 || n == 2){
+			
+			return 1;
+		}
+		else{
+			
+			return fib(n-2) + fib(n-1);
+			
+		}
+		
+	}
+	
+	public static void main(String...args){
+		
+		System.out.println();
+		System.out.println(fib(5));
+	}
+	
+}

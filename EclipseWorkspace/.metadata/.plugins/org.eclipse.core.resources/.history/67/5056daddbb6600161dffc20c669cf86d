@@ -1,0 +1,67 @@
+package com.Michal.Libera;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+public class Fib implements Runnable,Generator {
+
+	private int cnt = 0;
+	private int n;
+	
+	private static int a = 0;
+	public final int id = a++;
+	
+	public Fib(){
+		
+		System.out.println("Konstruktor domniemany: wartosc n na 5");
+		this.n = 5;
+	}
+	
+	public Fib(int n){
+		
+		this.n = n;
+	}
+	
+	public static int fib(int n){
+		
+		if(n == 0 || n < 0){
+			
+			System.out.println("Arg needs to be greater than null");
+			return 0;
+		}
+		else if(n == 1 || n == 2){
+			
+			return 1;
+		}
+		else{
+			
+			return fib(n-2) + fib(n-1);
+			
+		}
+		
+	}
+	
+	@Override
+	public int next(){
+		return fib(cnt++);		
+	}
+	
+	@Override
+	public void run(){
+		
+		System.out.println("Fib #" + id+" dziala");
+		for(int i = 0; i<n; i++){
+			
+			System.out.print("Fib # " + id + " wytworzyl wyraz nr "+ n + " o wartosci" + next());
+		}
+		
+		
+	}
+	
+	public static void main(String...args){
+		
+		System.out.println();
+		for i
+	}
+	
+}
