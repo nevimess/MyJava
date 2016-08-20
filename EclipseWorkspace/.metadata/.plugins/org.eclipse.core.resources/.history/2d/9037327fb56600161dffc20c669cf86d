@@ -1,0 +1,20 @@
+package com.Michal.Libera;
+
+public class Cw1 implements Runnable {
+	
+	int cnt = 3;
+	public static int taskCnt = 0;
+	public final int id = taskCnt++;
+	
+	@Override
+	public void run(){
+		
+		System.out.println("Działam jako #"+id);
+		Thread.yield();
+		
+		
+		
+	}
+	
+
+}

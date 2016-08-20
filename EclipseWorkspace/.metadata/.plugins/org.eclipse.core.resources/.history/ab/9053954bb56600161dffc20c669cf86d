@@ -1,0 +1,18 @@
+package com.Michal.Libera;
+
+public class Cw1 implements Runnable {
+	
+	int cnt = 3;
+	public final id++;
+	
+	@Override
+	public void run(){
+		
+		System.out.println("Dizł")
+		
+		
+		
+	}
+	
+
+}

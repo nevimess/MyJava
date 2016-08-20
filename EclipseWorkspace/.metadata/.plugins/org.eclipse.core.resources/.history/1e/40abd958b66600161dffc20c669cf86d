@@ -15,7 +15,8 @@ public class Cw1 implements Runnable {
 	@Override
 	public void run(){
 		while(cnt-- > 0){
-		System.out.println("Działam jako #"+id+" wartosc cnt: "+cnt);
+		System.out.println("Działam jako #"+id);
+		cnt--;
 		Thread.yield();
 		}
 			

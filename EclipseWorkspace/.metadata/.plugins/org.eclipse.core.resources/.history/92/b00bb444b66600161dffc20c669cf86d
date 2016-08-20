@@ -14,13 +14,17 @@ public class Cw1 implements Runnable {
 	
 	@Override
 	public void run(){
-		while(cnt-- > 0){
-		System.out.println("Działam jako #"+id+" wartosc cnt: "+cnt);
+		if(cnt > 0){
+		System.out.println("Działam jako #"+id);
+		cnt--;
 		Thread.yield();
 		}
+		else{ 
 			
 			System.out.println("Task #"+id+" konczy prace");
 			return;};
 		
 	}
 	
+
+}
