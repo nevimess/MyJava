@@ -1,0 +1,19 @@
+package com.Michal.Libera;
+
+import javax.swing.*;
+import java.util.concurrent.*;
+
+public class HelloLabel {
+
+	public static void main(String...args) throws Exception{
+		
+		JFrame frame = new JFrame("Ahoj Swing");
+		JLabel label = new JLabel("Etykieta");
+		
+		frame.add(label);
+		
+		
+	}
+	
+	
+}

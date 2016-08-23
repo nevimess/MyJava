@@ -1,0 +1,15 @@
+package com.Michal.Libera;
+
+import javax.swing.JFrame;
+
+public class HelloLabel {
+
+	public static void main(String...args) throws Exception{
+		
+		JFrame frame = new Jframe("Ahoj Swing");
+		
+		
+	}
+	
+	
+}
