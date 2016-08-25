@@ -1,0 +1,17 @@
+package com.Michal.Libera;
+
+import javax.swing.*;
+
+public class Cw4 extends JFrame {
+
+private JButton b1 = new JButton("Button 1");
+private JButton b2 = new JButton("Button 2");
+
+public void Button1(){
+	
+	setLayout(new FlowLayout());
+	
+}
+	
+	
+}

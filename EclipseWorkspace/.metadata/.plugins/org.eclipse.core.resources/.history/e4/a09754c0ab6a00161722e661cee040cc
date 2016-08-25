@@ -1,0 +1,9 @@
+package com.Michal.Libera;
+
+import static com.Michal.Libera.SwingConsole.*;
+import javax.swing.*;
+
+public class Cw5 extends JFrame {
+	
+
+}

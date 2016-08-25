@@ -25,7 +25,14 @@ public class SwingConsole {
 	}
 		public static void main(String...args){
 			
-			run(new Cw2(),300,100);
+			run(new Cw3(),300,100);
+			try{
+			Cw3.main();
+			}
+			
+			catch(Exception e){
+				e.printStackTrace();
+			}
 			
 		}
 		

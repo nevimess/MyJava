@@ -1,0 +1,14 @@
+package com.Michal.Libera;
+
+import static com.Michal.Libera.SwingConsole.*;
+import javax.swing.*;
+
+public class Cw5 extends JFrame {
+	
+	private JButton	b1 = new JButton("Przycisk 1");
+	private JButton b2 = new JButton("Przycisk 2");
+	private JButton b3 = new JButton("Prycisk 3");
+	
+	private JTextField l1 = new JTextField(15);
+
+}

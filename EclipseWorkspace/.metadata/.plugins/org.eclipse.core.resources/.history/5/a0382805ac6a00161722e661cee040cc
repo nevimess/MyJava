@@ -1,0 +1,24 @@
+package com.Michal.Libera;
+
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class Cw5 extends JFrame {
+	
+	private JButton	b1 = new JButton("Przycisk 1");
+	private JButton b2 = new JButton("Przycisk 2");
+	private JButton b3 = new JButton("Prycisk 3");
+	
+	private JTextField l1 = new JTextField(15);
+
+	private ActionListener al1 = new ActionListener(){
+		
+		
+		
+		
+	}
+	
+}

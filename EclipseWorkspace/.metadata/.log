@@ -175,3 +175,12 @@ java.io.IOException: File that was copied to backup could not be deleted: /usr/l
 	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
 	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-08-25 11:38:25.160 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-08-25 11:38:32.524
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
