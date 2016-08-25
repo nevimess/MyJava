@@ -1,0 +1,14 @@
+package com.Michal.Libera;
+
+import javax.swing.*;
+
+public class Cw11Frame extends JFrame {
+
+	Cw11 jb1 = new Cw11();
+	
+	Cw11Frame(){
+		
+		
+		
+	}
+}

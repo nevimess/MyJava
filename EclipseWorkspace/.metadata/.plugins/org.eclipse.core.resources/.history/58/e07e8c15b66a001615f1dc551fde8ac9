@@ -1,0 +1,12 @@
+package com.Michal.Libera;
+
+import static com.Michal.Libera.SwingConsole.*;
+import javax.swing.*;
+
+public class Cw10 extends JFrame {
+	
+	private JButton b1 = new JButton("Przycisek");
+	
+	
+
+}

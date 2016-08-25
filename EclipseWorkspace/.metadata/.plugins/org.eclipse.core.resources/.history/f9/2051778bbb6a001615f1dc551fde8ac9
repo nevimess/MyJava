@@ -1,0 +1,20 @@
+package com.Michal.Libera;
+
+import java.awt.Color;
+
+import javax.swing.*;
+
+
+public class Cw11 extends JButton {
+	
+	public Cw11(){
+		super("Przycisek");
+		super.setBackground(Color.BLACK);
+	}
+	
+	public void randomColor(){
+		
+		
+	}
+	
+}

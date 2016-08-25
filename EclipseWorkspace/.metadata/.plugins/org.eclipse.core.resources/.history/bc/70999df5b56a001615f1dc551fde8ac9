@@ -1,0 +1,10 @@
+package com.Michal.Libera;
+
+import static com.Michal.Libera.SwingConsole.*;
+
+public class Cw10 extends JFrame {
+	
+	
+	
+
+}

@@ -1,0 +1,25 @@
+package com.Michal.Libera;
+
+import java.awt.BorderLayout;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+
+public class Cw11Frame extends JFrame {
+
+	Cw11 jb1 = new Cw11();
+	
+	ActionListener al = new ActionListener(){
+		
+		
+		
+	};
+	
+	Cw11Frame(){
+		setLayout(new BorderLayout());
+		add(BorderLayout.CENTER,jb1);
+	}
+	
+	
+	
+}

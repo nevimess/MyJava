@@ -184,3 +184,1837 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.core.resources 2 10035 2016-08-25 11:38:32.524
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:52:26.751
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.752
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.752
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.752
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.752
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.752
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.752
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.752
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.753
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.753
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.753
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:52:26.759
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.759
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.759
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.759
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.759
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.759
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.759
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.759
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.759
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.759
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.759
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.759
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.760
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.760
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.760
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.760
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.760
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.760
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.760
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.760
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:52:26.760
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.760
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:52:26.760
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:53:09.049
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.050
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.050
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.050
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.050
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.050
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.050
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.050
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.051
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.051
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.051
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:53:09.055
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.055
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.055
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.055
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.055
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.055
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.055
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.055
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.056
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.056
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.056
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.056
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.056
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.056
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.056
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.056
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.056
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.056
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.056
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.056
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:53:09.056
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.056
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:53:09.056
+!MESSAGE To: com.ibm.icu [49.1.0]
+!SESSION 2016-08-25 12:54:02.849 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-08-25 12:54:33.073
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/windowbuilder/WB/integration/3.7.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-08-25 12:54:33.076
+!MESSAGE No repository found at http://download.eclipse.org/windowbuilder/WB/integration/3.7.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:54:41.466
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10011 2016-08-25 12:54:41.466
+!MESSAGE "Object Teams Patch for JDT/Core" is not applicable to the current configuration and will not be installed.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:54:41.468
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10011 2016-08-25 12:54:41.468
+!MESSAGE "Object Teams Patch for JDT/Core" is not applicable to the current configuration and will not be installed.
+
+!ENTRY org.eclipse.ui 4 0 2016-08-25 12:55:37.294
+!MESSAGE Unable to create editor ID org.eclipse.wb.core.guiEditor: An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wb.internal.core.editor.multi.SourcePage.updateSourceActions(SourcePage.java:140)
+	at org.eclipse.wb.internal.core.editor.multi.SourcePage.handleActiveState(SourcePage.java:74)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode.showPage(DefaultMultiMode.java:125)
+	at org.eclipse.wb.internal.core.editor.multi.MultiPagesMode.showSource(MultiPagesMode.java:54)
+	at org.eclipse.wb.internal.core.editor.multi.MultiPagesMode.create(MultiPagesMode.java:100)
+	at org.eclipse.wb.internal.core.editor.multi.DesignerEditor.createPartControl(DesignerEditor.java:87)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:670)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2949)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2854)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2846)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2797)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2793)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2777)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2760)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$1.run(DesignerNewElementWizard.java:81)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.ui 2 2 2016-08-25 12:55:37.467
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@846b47 from part: org.eclipse.ui.internal.ErrorEditorPart@846b47
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:116)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:695)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2949)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2854)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2846)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2797)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2793)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2777)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2760)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$1.run(DesignerNewElementWizard.java:81)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-08-25 12:56:14.642
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/windowbuilder/WB/integration/3.7.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-08-25 12:56:14.642
+!MESSAGE No repository found at http://download.eclipse.org/windowbuilder/WB/integration/3.7.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:56:26.036
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10011 2016-08-25 12:56:26.036
+!MESSAGE "Object Teams Patch for JDT/Core" is not applicable to the current configuration and will not be installed.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:56:26.040
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10011 2016-08-25 12:56:26.040
+!MESSAGE "Object Teams Patch for JDT/Core" is not applicable to the current configuration and will not be installed.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-08-25 12:56:41.450
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/windowbuilder/WB/integration/3.7.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-08-25 12:56:41.450
+!MESSAGE No repository found at http://download.eclipse.org/windowbuilder/WB/integration/3.7.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:57:04.598
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2016-08-25 12:57:04.598
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:57:04.598
+!MESSAGE "SWT Designer" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:57:04.598
+!MESSAGE "SWT Designer Core" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:57:04.598
+!MESSAGE "SWT Designer SWT_AWT Support" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:57:04.598
+!MESSAGE "SWT Designer XWT Support (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:57:04.602
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2016-08-25 12:57:04.602
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:57:04.602
+!MESSAGE "SWT Designer" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:57:04.602
+!MESSAGE "SWT Designer Core" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:57:04.602
+!MESSAGE "SWT Designer SWT_AWT Support" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:57:04.602
+!MESSAGE "SWT Designer XWT Support (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:58:33.044
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-08-25 12:58:33.044
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.044
+!MESSAGE "Swing Designer" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.045
+!MESSAGE "SWT Designer" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.045
+!MESSAGE "SWT Designer Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.045
+!MESSAGE "SWT Designer SWT_AWT Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.045
+!MESSAGE "SWT Designer XWT Support (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.045
+!MESSAGE "WindowBuilder Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.045
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.045
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.045
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.045
+!MESSAGE "WindowBuilder XML Core (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.045
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.045
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.045
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.045
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.045
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.045
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.045
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.045
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.045
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.045
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.045
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.046
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.046
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.046
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.046
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.046
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.046
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.046
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.046
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.046
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.046
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.046
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:58:33.052
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-08-25 12:58:33.053
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.053
+!MESSAGE "Swing Designer" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.053
+!MESSAGE "SWT Designer" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.053
+!MESSAGE "SWT Designer Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.053
+!MESSAGE "SWT Designer SWT_AWT Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.053
+!MESSAGE "SWT Designer XWT Support (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.053
+!MESSAGE "WindowBuilder Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.053
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.053
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.053
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:33.053
+!MESSAGE "WindowBuilder XML Core (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.053
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.053
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.053
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.053
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.053
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.053
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.053
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.054
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.054
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.054
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.054
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.054
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.054
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.054
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.054
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.054
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.054
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.054
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.054
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:33.054
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.054
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:33.054
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:58:44.367
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-08-25 12:58:44.367
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.367
+!MESSAGE "SWT Designer" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.367
+!MESSAGE "SWT Designer Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.368
+!MESSAGE "SWT Designer SWT_AWT Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.368
+!MESSAGE "SWT Designer XWT Support (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.368
+!MESSAGE "WindowBuilder Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.368
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.368
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.368
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.368
+!MESSAGE "WindowBuilder XML Core (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.368
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.368
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.368
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.368
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.368
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.368
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.368
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.368
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.368
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.368
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.368
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.368
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.368
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.369
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.369
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.369
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.369
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.369
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.369
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.369
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.369
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.369
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:58:44.371
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-08-25 12:58:44.371
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.371
+!MESSAGE "SWT Designer" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.371
+!MESSAGE "SWT Designer Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.371
+!MESSAGE "SWT Designer SWT_AWT Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.371
+!MESSAGE "SWT Designer XWT Support (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.371
+!MESSAGE "WindowBuilder Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.371
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.371
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.371
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:44.371
+!MESSAGE "WindowBuilder XML Core (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.371
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.371
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.372
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.372
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.372
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.372
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.372
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:44.372
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:44.372
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:58:48.309
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-08-25 12:58:48.309
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.309
+!MESSAGE "SWT Designer SWT_AWT Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.309
+!MESSAGE "SWT Designer XWT Support (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.310
+!MESSAGE "WindowBuilder Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.310
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.310
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.310
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.310
+!MESSAGE "WindowBuilder XML Core (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.310
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.310
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.310
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.310
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.310
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.310
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.310
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.310
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:58:48.312
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-08-25 12:58:48.312
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.312
+!MESSAGE "SWT Designer SWT_AWT Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.312
+!MESSAGE "SWT Designer XWT Support (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.312
+!MESSAGE "WindowBuilder Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.312
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.312
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.312
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:48.312
+!MESSAGE "WindowBuilder XML Core (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.312
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.312
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.313
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.313
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.313
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.313
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.313
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:48.313
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:48.313
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:58:53.092
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-08-25 12:58:53.092
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:53.092
+!MESSAGE "WindowBuilder Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:53.092
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:53.092
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:53.092
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:53.092
+!MESSAGE "WindowBuilder XML Core (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.092
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.092
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.093
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.093
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.093
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.093
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.093
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.093
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.093
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.093
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.093
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.093
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.093
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.093
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.094
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.094
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.094
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.094
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.094
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.094
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.094
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.094
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:58:53.096
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-08-25 12:58:53.096
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:53.096
+!MESSAGE "WindowBuilder Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:53.096
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:53.096
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:53.096
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:53.097
+!MESSAGE "WindowBuilder XML Core (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.097
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.097
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.097
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.097
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.097
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.097
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:53.097
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:53.097
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:58:58.160
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-08-25 12:58:58.160
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:58.160
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:58.160
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:58.160
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:58.160
+!MESSAGE "WindowBuilder XML Core (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.160
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.160
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.160
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.160
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.161
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.161
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.161
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.161
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.161
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.161
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:58:58.162
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-08-25 12:58:58.162
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:58.162
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:58.162
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:58.162
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:58:58.162
+!MESSAGE "WindowBuilder XML Core (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.162
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.162
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.163
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.163
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.163
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.163
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.163
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:58:58.163
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:58:58.163
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:59:02.311
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-08-25 12:59:02.312
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:59:02.312
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:59:02.312
+!MESSAGE "WindowBuilder XML Core (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.312
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.312
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.312
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.312
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.312
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.312
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.312
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.312
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:59:02.313
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2016-08-25 12:59:02.313
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:59:02.313
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2016-08-25 12:59:02.313
+!MESSAGE "WindowBuilder XML Core (requires Eclipse WTP/WST)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.314
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.314
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.314
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.314
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.314
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.314
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:02.314
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:02.314
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:59:07.003
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.003
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.003
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.003
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.003
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.003
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.003
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.003
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.003
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 12:59:07.004
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.004
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE Software being installed: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.004
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110208 (com.ibm.icu 4.4.2.v20110208)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.004
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE From: Usage Data Collector 1.4.0.R201106061540 (org.eclipse.epp.usagedata.feature.feature.group 1.4.0.R201106061540)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE To: org.eclipse.epp.usagedata.ui [1.3.1.R201106061540]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.004
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE From: org.eclipse.epp.usagedata.ui 1.3.1.R201106061540
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE To: bundle com.ibm.icu [3.8.1,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.004
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.004
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.004
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 12:59:07.005
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.005
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 12:59:07.005
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.ui 2 2 2016-08-25 12:59:26.303
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2016-08-25 13:02:27.523 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 0 2016-08-25 13:02:57.567
+!MESSAGE Unable to create editor ID org.eclipse.wb.core.guiEditor: No editor descriptor for id org.eclipse.wb.core.guiEditor
+!STACK 1
+org.eclipse.ui.PartInitException: No editor descriptor for id org.eclipse.wb.core.guiEditor
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:601)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1459)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:972)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1600)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2609)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 1 org.eclipse.ui 4 0 2016-08-25 13:02:57.569
+!MESSAGE No editor descriptor for id org.eclipse.wb.core.guiEditor
+
+!ENTRY org.eclipse.ui 2 2 2016-08-25 13:02:57.599
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@2ba45490 from part: org.eclipse.ui.internal.ErrorEditorPart@2ba45490
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:116)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:695)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1459)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:972)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1600)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2609)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SESSION 2016-08-25 13:09:53.503 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 0 2016-08-25 13:10:01.001
+!MESSAGE Unable to create editor ID org.eclipse.wb.core.guiEditor: No editor descriptor for id org.eclipse.wb.core.guiEditor
+!STACK 1
+org.eclipse.ui.PartInitException: No editor descriptor for id org.eclipse.wb.core.guiEditor
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:601)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1459)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:972)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1600)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2609)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 1 org.eclipse.ui 4 0 2016-08-25 13:10:01.003
+!MESSAGE No editor descriptor for id org.eclipse.wb.core.guiEditor
+
+!ENTRY org.eclipse.ui 2 2 2016-08-25 13:10:01.060
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@74518890 from part: org.eclipse.ui.internal.ErrorEditorPart@74518890
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:116)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:695)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1459)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:972)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1600)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2609)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SESSION 2016-08-25 13:10:15.368 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 13:11:09.239
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.239
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.239
+!MESSAGE Software being installed: Xtext SDK 2.3.1.v201208210947 (org.eclipse.xtext.sdk.feature.group 2.3.1.v201208210947)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.239
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.240
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.240
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.240
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.240
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.240
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.240
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.240
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.240
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.240
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.240
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.241
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.241
+!MESSAGE To: com.ibm.icu [49.1.0]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.241
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.241
+!MESSAGE From: Xtext SDK 2.3.1.v201208210947 (org.eclipse.xtext.sdk.feature.group 2.3.1.v201208210947)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.241
+!MESSAGE To: org.eclipse.xtext.ui.feature.group [2.3.1.v201208210947]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.241
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.241
+!MESSAGE From: Xtext UI Core 2.3.1.v201208210947 (org.eclipse.xtext.ui 2.3.1.v201208210947)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.241
+!MESSAGE To: bundle com.ibm.icu [4.0.0,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.241
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.241
+!MESSAGE From: Xtext UI 2.3.1.v201208210947 (org.eclipse.xtext.ui.feature.group 2.3.1.v201208210947)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.241
+!MESSAGE To: org.eclipse.xtext.ui [2.3.1.v201208210947]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 13:11:09.318
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.318
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.318
+!MESSAGE Software being installed: Xtext SDK 2.3.1.v201208210947 (org.eclipse.xtext.sdk.feature.group 2.3.1.v201208210947)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.318
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.318
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.318
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.318
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.318
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.318
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.318
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.318
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.318
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.319
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.319
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.319
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.319
+!MESSAGE To: com.ibm.icu [49.1.0]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.319
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.319
+!MESSAGE From: Xtext SDK 2.3.1.v201208210947 (org.eclipse.xtext.sdk.feature.group 2.3.1.v201208210947)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.319
+!MESSAGE To: org.eclipse.xtext.ui.feature.group [2.3.1.v201208210947]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.319
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.319
+!MESSAGE From: Xtext UI Core 2.3.1.v201208210947 (org.eclipse.xtext.ui 2.3.1.v201208210947)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.319
+!MESSAGE To: bundle com.ibm.icu [4.0.0,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:11:09.319
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.319
+!MESSAGE From: Xtext UI 2.3.1.v201208210947 (org.eclipse.xtext.ui.feature.group 2.3.1.v201208210947)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:11:09.319
+!MESSAGE To: org.eclipse.xtext.ui [2.3.1.v201208210947]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 13:13:24.289
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:24.289
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.289
+!MESSAGE Software being installed: PHP Development Tools (PDT) 3.1.2.201212211235 (org.eclipse.php.feature.group 3.1.2.201212211235)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.289
+!MESSAGE Software being installed: PHP Development Tools (PDT) SDK Feature 3.1.1.201209101312 (org.eclipse.php.sdk.feature.group 3.1.1.201209101312)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:24.289
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.289
+!MESSAGE PDT Server UI Plug-in 3.1.2.201212211235 (org.eclipse.php.server.ui 3.1.2.201212211235)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.289
+!MESSAGE PDT Server UI Plug-in 3.1.1.201209101312 (org.eclipse.php.server.ui 3.1.1.201209101312)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:24.289
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.289
+!MESSAGE From: PHP Development Tools (PDT) Runtime Feature 3.1.1.201209101312 (org.eclipse.php.feature.group 3.1.1.201209101312)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.289
+!MESSAGE To: org.eclipse.php.server.ui [3.1.1.201209101312]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:24.290
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.290
+!MESSAGE From: PHP Development Tools (PDT) 3.1.2.201212211235 (org.eclipse.php.feature.group 3.1.2.201212211235)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.290
+!MESSAGE To: org.eclipse.php.server.ui [3.1.2.201212211235]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:24.290
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.290
+!MESSAGE From: PHP Development Tools (PDT) SDK Feature 3.1.1.201209101312 (org.eclipse.php.sdk.feature.group 3.1.1.201209101312)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.290
+!MESSAGE To: org.eclipse.php.feature.group [3.1.1.201209101312]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 13:13:24.301
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:24.302
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.302
+!MESSAGE Software being installed: PHP Development Tools (PDT) 3.1.2.201212211235 (org.eclipse.php.feature.group 3.1.2.201212211235)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.302
+!MESSAGE Software being installed: PHP Development Tools (PDT) SDK Feature 3.1.1.201209101312 (org.eclipse.php.sdk.feature.group 3.1.1.201209101312)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:24.302
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.302
+!MESSAGE PDT Server UI Plug-in 3.1.2.201212211235 (org.eclipse.php.server.ui 3.1.2.201212211235)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.302
+!MESSAGE PDT Server UI Plug-in 3.1.1.201209101312 (org.eclipse.php.server.ui 3.1.1.201209101312)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:24.302
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.302
+!MESSAGE From: PHP Development Tools (PDT) Runtime Feature 3.1.1.201209101312 (org.eclipse.php.feature.group 3.1.1.201209101312)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.302
+!MESSAGE To: org.eclipse.php.server.ui [3.1.1.201209101312]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:24.302
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.302
+!MESSAGE From: PHP Development Tools (PDT) 3.1.2.201212211235 (org.eclipse.php.feature.group 3.1.2.201212211235)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.302
+!MESSAGE To: org.eclipse.php.server.ui [3.1.2.201212211235]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:24.302
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.302
+!MESSAGE From: PHP Development Tools (PDT) SDK Feature 3.1.1.201209101312 (org.eclipse.php.sdk.feature.group 3.1.1.201209101312)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:24.302
+!MESSAGE To: org.eclipse.php.feature.group [3.1.1.201209101312]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 13:13:56.636
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.636
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE Software being installed: Dali Java Persistence Tools - JPA Diagram Editor 1.1.2.v201301082148-408c9oB58C5FCB77B5 (org.eclipse.jpt.jpadiagrameditor.feature.feature.group 1.1.2.v201301082148-408c9oB58C5FCB77B5)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.636
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.636
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE From: EMF Model Transaction Core 1.4.0.v20100331-1738 (org.eclipse.emf.transaction 1.4.0.v20100331-1738)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE To: bundle org.eclipse.emf.validation [1.2.0,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.636
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE From: EMF Validation Framework Core 1.4.0.v20100428-2315 (org.eclipse.emf.validation 1.4.0.v20100428-2315)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE To: package com.ibm.icu.lang [4.0.0,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.636
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE From: Dali Java Persistence Tools - JPA Diagram Editor 1.1.2.v201301082148-408c9oB58C5FCB77B5 (org.eclipse.jpt.jpadiagrameditor.feature.feature.group 1.1.2.v201301082148-408c9oB58C5FCB77B5)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE To: org.eclipse.jpt.jpadiagrameditor.ui [1.0.3.v201301300050]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.636
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE From: Dali Java Persistence Tools - JPA Diagram Editor 1.0.3.v201301300050 (org.eclipse.jpt.jpadiagrameditor.ui 1.0.3.v201301300050)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE To: bundle org.eclipse.emf.transaction [1.4.0,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.636
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.636
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.636
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.636
+!MESSAGE To: com.ibm.icu [49.1.0]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-08-25 13:13:56.638
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.638
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE Software being installed: Dali Java Persistence Tools - JPA Diagram Editor 1.1.2.v201301082148-408c9oB58C5FCB77B5 (org.eclipse.jpt.jpadiagrameditor.feature.feature.group 1.1.2.v201301082148-408c9oB58C5FCB77B5)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.638
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE International Components for Unicode for Java (ICU4J) 4.4.2.v20110823 (com.ibm.icu 4.4.2.v20110823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE ICU4J 49.1.0 (com.ibm.icu 49.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.638
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE From: EMF Model Transaction Core 1.4.0.v20100331-1738 (org.eclipse.emf.transaction 1.4.0.v20100331-1738)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE To: bundle org.eclipse.emf.validation [1.2.0,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.638
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE From: EMF Validation Framework Core 1.4.0.v20100428-2315 (org.eclipse.emf.validation 1.4.0.v20100428-2315)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE To: package com.ibm.icu.lang [4.0.0,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.638
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE From: Dali Java Persistence Tools - JPA Diagram Editor 1.1.2.v201301082148-408c9oB58C5FCB77B5 (org.eclipse.jpt.jpadiagrameditor.feature.feature.group 1.1.2.v201301082148-408c9oB58C5FCB77B5)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE To: org.eclipse.jpt.jpadiagrameditor.ui [1.0.3.v201301300050]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.638
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE From: Dali Java Persistence Tools - JPA Diagram Editor 1.0.3.v201301300050 (org.eclipse.jpt.jpadiagrameditor.ui 1.0.3.v201301300050)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE To: bundle org.eclipse.emf.transaction [1.4.0,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.638
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE To: org.eclipse.rcp.feature.group [3.8.1.dist-92A7GODFSNQBG]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.638
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-08-25 13:13:56.638
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE From: Eclipse RCP 3.8.1.dist-92A7GODFSNQBG (org.eclipse.rcp.feature.group 3.8.1.dist-92A7GODFSNQBG)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-08-25 13:13:56.638
+!MESSAGE To: com.ibm.icu [49.1.0]
+!SESSION 2016-08-25 13:16:07.548 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2016-08-25 13:16:29.423
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-08-25 13:16:29.424
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.ui.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-08-25 13:16:29.424
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.ui.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-08-25 13:16:47.729
+!MESSAGE Project facet jpt.jpa has not been defined. It is used in plugin org.eclipse.libra.facet.
+
+!ENTRY org.eclipse.ui 4 4 2016-08-25 13:16:47.944
+!MESSAGE Could not create action delegate for id: org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction
+
+!ENTRY org.eclipse.equinox.registry 4 1 2016-08-25 13:16:47.945
+!MESSAGE Plug-in org.eclipse.wb.core.java was unable to load class org.eclipse.debug.ui.actions.RulerToggleBreakpointActionDelegate.
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.debug.ui.actions.RulerToggleBreakpointActionDelegate
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:260)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:275)
+	at org.eclipse.ui.internal.PluginAction.<init>(PluginAction.java:112)
+	at org.eclipse.ui.internal.PartPluginAction.<init>(PartPluginAction.java:29)
+	at org.eclipse.ui.internal.EditorPluginAction.<init>(EditorPluginAction.java:32)
+	at org.eclipse.ui.internal.ActionDescriptor.createAction(ActionDescriptor.java:262)
+	at org.eclipse.ui.internal.ActionDescriptor.<init>(ActionDescriptor.java:176)
+	at org.eclipse.ui.internal.ActionDescriptor.<init>(ActionDescriptor.java:103)
+	at org.eclipse.ui.internal.EditorActionBuilder.createActionDescriptor(EditorActionBuilder.java:41)
+	at org.eclipse.ui.internal.PluginActionBuilder.readElement(PluginActionBuilder.java:161)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElementChildren(RegistryReader.java:133)
+	at org.eclipse.ui.internal.PluginActionBuilder.readElement(PluginActionBuilder.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:155)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:176)
+	at org.eclipse.ui.internal.PluginActionBuilder.readContributions(PluginActionBuilder.java:115)
+	at org.eclipse.ui.internal.EditorActionBuilder.readActionExtensions(EditorActionBuilder.java:58)
+	at org.eclipse.ui.internal.EditorManager.createEditorActionBars(EditorManager.java:346)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:820)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2949)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2854)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2846)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2797)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2793)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2777)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2760)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$1.run(DesignerNewElementWizard.java:81)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)

@@ -1,0 +1,34 @@
+package com.Michal.Libera;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+import jabax.swing.JLabel;
+
+import static com.Michal.Libera.SwingConsole.*;
+
+public class Cw10 extends JFrame {
+	
+	private JButton b1 = new JButton("Przycisek");
+	private JTextField tf1 = new JTextField(15);
+	private JLabel l1 = new JLabel();
+	
+	public Cw10(){
+		
+		setLayout(new BorderLayout());
+		add(BorderLayout.WEST,b1);
+		add(BorderLayout.EAST,tf1);
+		
+	}
+	
+	public static void main(String...args){
+		
+		run(new Cw10(),300,100);
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,22 @@
+package com.Michal.Libera;
+
+import static com.Michal.Libera.SwingConsole.*;
+import javax.swing.*;
+
+public class Cw10 extends JFrame {
+	
+	private JButton b1 = new JButton("Przycisek");
+	private JTextField tf1 = new JTextField(15);
+	
+	
+	public Cw10(){
+		
+		setLayout(new BorderLayout());
+		add(b1);
+		add(tf1):
+		
+	}
+	
+	
+
+}

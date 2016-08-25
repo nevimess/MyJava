@@ -1,0 +1,12 @@
+package com.Michal.Libera;
+
+public class Cw11Frame extends JFrame {
+
+	
+	
+	Cw11Frame(){
+		
+		
+		
+	}
+}
