@@ -1,0 +1,12 @@
+package com.Michal.Libera;
+
+public class Line extends JPanel{
+
+	int x;
+	int y;
+	int formerX;
+	int formerY;
+	
+	
+	
+}

@@ -1,0 +1,10 @@
+package com.Michal.Libera;
+
+public class Line {
+
+	int x;
+	int y;
+	int formerX;
+	int formerY;
+	
+}
