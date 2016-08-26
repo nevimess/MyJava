@@ -1,0 +1,12 @@
+package com.Michal.Libera;
+
+
+
+public class Server {
+
+	public static final int PORT = 50000;
+	static boolean flaga = true;
+	
+	
+	
+}

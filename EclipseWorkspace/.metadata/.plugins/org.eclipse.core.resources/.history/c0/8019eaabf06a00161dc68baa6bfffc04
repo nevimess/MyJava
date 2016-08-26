@@ -1,0 +1,11 @@
+package com.Michal.Libera;
+
+import javax.swing.*;
+
+public class Sterowanie extends JPanel {
+	
+	int x = 0;
+	int y = 0;
+	
+
+}

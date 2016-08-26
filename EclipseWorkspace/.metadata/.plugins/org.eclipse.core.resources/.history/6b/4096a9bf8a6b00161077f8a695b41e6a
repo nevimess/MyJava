@@ -1,0 +1,64 @@
+package com.Michal.Libera;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+
+
+public class Server {
+
+	public static final int PORT = 50000;
+	static boolean flaga = true;
+	
+	private static ServerSocket serverSocket;
+	private static Socket clientSocket;
+	
+	public static void main(String...args) throws IOException{
+		
+		serverSocket = null;
+		
+		try{
+			
+			serverSocket = new ServerSocket(PORT);
+		}
+		catch(IOException e){
+			
+			System.out.println("Nie mona otworzyc portu na # "+ PORT);
+			System.exit(1);
+			
+		}
+		
+	System.out.println("Czekam na polaczenie");
+	
+	Thread t = new Thread(new Runnable(){
+		
+		@Override
+		public void run(){
+			
+			try{
+				
+				while(flaga){
+					
+					System.out.println(".");
+					Thread.sleep(1000);
+					
+				}
+				catch(InterruptedException e){
+					
+					
+				}
+			}
+				
+				
+			}
+			
+			
+			
+		}
+		
+		
+	}
+		
+		
+	}
