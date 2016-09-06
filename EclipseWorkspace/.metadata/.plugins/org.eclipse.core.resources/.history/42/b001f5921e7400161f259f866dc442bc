@@ -1,0 +1,9 @@
+package com.Michal.Libera;
+
+//Klasa realizuje zarządzanie przykładową relacyjną bazą danych w oparciu o SQLLite
+
+
+
+public class Biblioteka {
+
+}

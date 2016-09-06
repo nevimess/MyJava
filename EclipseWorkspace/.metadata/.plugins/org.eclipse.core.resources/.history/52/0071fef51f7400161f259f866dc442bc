@@ -1,0 +1,11 @@
+package com.Michal.Libera;
+
+//Klasa realizuje zarządzanie przykładową relacyjną bazą danych w oparciu o SQLLite
+
+
+public class Biblioteka {
+
+	public static final String DRIVER = "org.sqlite.JDBC";
+	public static final DB_URL = " ";
+	
+}
