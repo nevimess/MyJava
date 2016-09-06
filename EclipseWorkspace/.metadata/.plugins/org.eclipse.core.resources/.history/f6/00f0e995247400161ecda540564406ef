@@ -1,0 +1,12 @@
+package com.Michal.Libera;
+
+public class Test {
+
+	public static void main(String...args){
+		
+		Biblioteka b = new Biblioteka();
+		b.insertCzytelnik(Jan, Kowalski, 666);
+		
+	}
+	
+}

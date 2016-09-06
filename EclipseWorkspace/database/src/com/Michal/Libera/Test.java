@@ -4,7 +4,9 @@ public class Test {
 
 	public static void main(String...args){
 		
-		new Biblioteka();
+		Biblioteka b = new Biblioteka();
+		b.insertCzytelnik("Jan", "Kowalski", "666");
+		b.closeConnection();
 		
 	}
 	

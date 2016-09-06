@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="16" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -23,6 +23,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -57,6 +58,7 @@
 <part id="22"/>
 <part id="23"/>
 <part id="24"/>
+<part id="25"/>
 </presentation>
 </folder>
 </info>
@@ -157,9 +159,13 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Network/src/com/Michal/Libera/TCPClient.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="328" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" partName="Client.java" path="/home/nevimess/GitHubJava/EclipseWorkspace/Network/src/com/Michal/Libera/Client.java" title="Client.java" tooltip="Network/src/com/Michal/Libera/Client.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" partName="Client.java" path="/home/nevimess/GitHubJava/EclipseWorkspace/Network/src/com/Michal/Libera/Client.java" title="Client.java" tooltip="Network/src/com/Michal/Libera/Client.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Network/src/com/Michal/Libera/Client.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2214" selectionTopPixel="598"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2214" selectionTopPixel="499"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Biblioteka.java" partName="Biblioteka.java" path="/home/nevimess/GitHubJava/EclipseWorkspace/database/src/com/Michal/Libera/Biblioteka.java" title="Biblioteka.java" tooltip="database/src/com/Michal/Libera/Biblioteka.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/database/src/com/Michal/Libera/Biblioteka.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1543" selectionTopPixel="454"/>
 </editor>
 </editors>
 <views>
@@ -195,10 +201,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (100 of 252 items)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="438" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -462,58 +464,42 @@
 <view id="org.eclipse.debug.ui.BreakpointView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.74983627" ratioLeft="1145" ratioRight="382" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.74983627" ratioLeft="1145" ratioRight="382" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7490637" ratioLeft="600" ratioRight="201" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7490637" ratioLeft="600" ratioRight="201" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.45" ratioLeft="270" ratioRight="330" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.74983627" ratioLeft="1145" ratioRight="382" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.74983627" ratioLeft="1145" ratioRight="382" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49967256" ratioLeft="763" ratioRight="764" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49967256" ratioLeft="763" ratioRight="764" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -525,8 +511,6 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Chapter22/src/com/Michal/Libera/Cw11.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Chapter22/src/com/Michal/Libera/Cw11Frame.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Chapter22/src/com/Michal/Libera/Cw5.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Chapter22/src/com/Michal/Libera/Cw15.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Chapter22/src/com/Michal/Libera/Sterowanie.java"/>
@@ -535,156 +519,158 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Network/src/com/Michal/Libera/TCPServer.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Network/src/com/Michal/Libera/TCPClient.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Network/src/com/Michal/Libera/Client.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/database/biblioteka.db"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/database/src/com/Michal/Libera/Biblioteka.java"/>
 </editors>
-<item historyLabel="Cw11Frame.java" index="1">
-<position info="not_deleted" x="410" y="0"/>
-</item>
-<item historyLabel="Cw11.java" index="0">
-<position info="not_deleted" x="680" y="0"/>
-</item>
-<item historyLabel="Cw11Frame.java" index="1">
-<position info="not_deleted" x="410" y="0"/>
-</item>
-<item historyLabel="Cw5.java" index="2">
-<position info="not_deleted" x="928" y="0"/>
-</item>
-<item historyLabel="Cw15.java" index="3">
+<item historyLabel="Cw15.java" index="1">
 <position info="not_deleted" x="2387" y="0"/>
 </item>
-<item historyLabel="Cw5.java" index="2">
+<item historyLabel="Cw5.java" index="0">
 <position info="not_deleted" x="0" y="1413"/>
 </item>
-<item historyLabel="Cw15.java" index="3">
+<item historyLabel="Cw15.java" index="1">
 <position info="not_deleted" x="2387" y="0"/>
 </item>
-<item historyLabel="Cw15.java" index="3">
+<item historyLabel="Cw15.java" index="1">
 <position info="not_deleted" x="2295" y="0"/>
 </item>
-<item historyLabel="Cw15.java" index="3">
+<item historyLabel="Cw15.java" index="1">
 <position info="not_deleted" x="670" y="0"/>
 </item>
-<item historyLabel="Cw15.java" index="3">
+<item historyLabel="Cw15.java" index="1">
 <position info="not_deleted" x="1563" y="0"/>
 </item>
-<item historyLabel="Cw15.java" index="3">
+<item historyLabel="Cw15.java" index="1">
 <position info="not_deleted" x="1509" y="0"/>
 </item>
-<item historyLabel="Cw15.java" index="3">
+<item historyLabel="Cw15.java" index="1">
 <position info="not_deleted" x="1503" y="0"/>
 </item>
-<item historyLabel="Cw15.java" index="3">
+<item historyLabel="Cw15.java" index="1">
 <position info="not_deleted" x="1438" y="0"/>
 </item>
-<item historyLabel="Sterowanie.java" index="4">
+<item historyLabel="Sterowanie.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Game.java" index="5">
+<item historyLabel="Game.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Sterowanie.java" index="4">
+<item historyLabel="Sterowanie.java" index="2">
 <position info="not_deleted" x="1627" y="0"/>
 </item>
-<item historyLabel="Game.java" index="5">
+<item historyLabel="Game.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Sterowanie.java" index="4">
+<item historyLabel="Sterowanie.java" index="2">
 <position info="not_deleted" x="1625" y="0"/>
 </item>
-<item historyLabel="Game.java" index="5">
+<item historyLabel="Game.java" index="3">
 <position info="not_deleted" x="1091" y="707"/>
 </item>
-<item historyLabel="Sterowanie.java" index="4">
+<item historyLabel="Sterowanie.java" index="2">
 <position info="not_deleted" x="1625" y="0"/>
 </item>
-<item historyLabel="Sterowanie.java" index="4">
+<item historyLabel="Sterowanie.java" index="2">
 <position info="not_deleted" x="766" y="0"/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position/>
 </item>
-<item historyLabel="TCPServer.java" index="7">
+<item historyLabel="TCPServer.java" index="5">
 <position info="not_deleted" x="280" y="0"/>
 </item>
-<item historyLabel="TCPClient.java" index="8">
+<item historyLabel="TCPClient.java" index="6">
 <position info="not_deleted" x="735" y="0"/>
 </item>
-<item historyLabel="TCPServer.java" index="7">
+<item historyLabel="TCPServer.java" index="5">
 <position info="not_deleted" x="280" y="0"/>
 </item>
-<item historyLabel="TCPClient.java" index="8">
+<item historyLabel="TCPClient.java" index="6">
 <position info="not_deleted" x="735" y="0"/>
 </item>
-<item historyLabel="TCPServer.java" index="7">
+<item historyLabel="TCPServer.java" index="5">
 <position info="not_deleted" x="280" y="0"/>
 </item>
-<item historyLabel="TCPClient.java" index="8">
+<item historyLabel="TCPClient.java" index="6">
 <position info="not_deleted" x="328" y="0"/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position/>
 </item>
-<item historyLabel="TCPServer.java" index="7">
+<item historyLabel="TCPServer.java" index="5">
 <position info="not_deleted" x="280" y="0"/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position/>
 </item>
-<item historyLabel="TCPServer.java" index="7">
+<item historyLabel="TCPServer.java" index="5">
 <position info="not_deleted" x="280" y="0"/>
 </item>
-<item historyLabel="TCPClient.java" index="8">
+<item historyLabel="TCPClient.java" index="6">
 <position info="not_deleted" x="328" y="0"/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position info="not_deleted" x="45" y="0"/>
 </item>
-<item historyLabel="Client.java" index="9">
+<item historyLabel="Client.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TCPServer.java" index="7">
+<item historyLabel="TCPServer.java" index="5">
 <position info="not_deleted" x="280" y="0"/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position info="not_deleted" x="45" y="0"/>
 </item>
-<item historyLabel="Client.java" index="9">
+<item historyLabel="Client.java" index="7">
 <position info="not_deleted" x="2237" y="0"/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position info="not_deleted" x="45" y="0"/>
 </item>
-<item historyLabel="Client.java" index="9">
+<item historyLabel="Client.java" index="7">
 <position info="not_deleted" x="2214" y="0"/>
 </item>
-<item historyLabel="Server.java" index="6">
+<item historyLabel="Server.java" index="4">
 <position info="not_deleted" x="45" y="0"/>
 </item>
-<item active="true" historyLabel="Client.java" index="9">
+<item historyLabel="Client.java" index="7">
 <position info="not_deleted" x="2214" y="0"/>
+</item>
+<item historyLabel="biblioteka.db" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="2214" y="0"/>
+</item>
+<item historyLabel="Biblioteka.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="Biblioteka.java" index="9">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -703,6 +689,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Biblioteka.java" tooltip="database/src/com/Michal/Libera/Biblioteka.java">
+<persistable path="/database/src/com/Michal/Libera/Biblioteka.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="biblioteka.db" tooltip="database/biblioteka.db">
+<persistable path="/database/biblioteka.db"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" tooltip="Network/src/com/Michal/Libera/Client.java">
 <persistable path="/Network/src/com/Michal/Libera/Client.java"/>
 </file>
@@ -741,12 +733,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cw51.java" tooltip="Chapter22/src/com/Michal/Libera/Cw51.java">
 <persistable path="/Chapter22/src/com/Michal/Libera/Cw51.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cw7.java" tooltip="Chapter22/src/com/Michal/Libera/Cw7.java">
-<persistable path="/Chapter22/src/com/Michal/Libera/Cw7.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cw5.java" tooltip="Chapter22/src/com/Michal/Libera/Cw5.java">
-<persistable path="/Chapter22/src/com/Michal/Libera/Cw5.java"/>
 </file>
 </mruList>
 </workbench>
