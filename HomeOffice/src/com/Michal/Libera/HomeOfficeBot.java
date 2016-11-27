@@ -1,5 +1,4 @@
 package com.Michal.Libera;
-//IBM HO Confidential xD
 //M.Libera
 import java.awt.AWTException;
 import java.awt.Dimension;
